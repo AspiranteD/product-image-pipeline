@@ -1,4 +1,5 @@
-# Product Image Pipeline
+﻿# Product Image Pipeline
+> **Portfolio context:** Extracted from founder-led production systems — multi-marketplace inventory, orders, and warehouse execution. **[Full portfolio](https://github.com/AspiranteD)** · [aspiranted.github.io](https://aspiranted.github.io)
 
 Image management and label generation library for e-commerce operations. Handles the full lifecycle: photo upload validation, URL management, shipping label generation with dynamic layouts, barcode labels, and carrier label processing.
 
