@@ -11,7 +11,6 @@ Content type detection uses both HTTP headers and URL extension
 as fallback.
 """
 import io
-import logging
 from typing import Optional, Callable, Tuple
 
 try:
@@ -21,9 +20,6 @@ except ImportError:
     HAS_PIL = False
 
 from src.label.layout import LABEL_WIDTH_PX, DPI
-
-logger = logging.getLogger(__name__)
-
 
 def download_label(
     url: str,
